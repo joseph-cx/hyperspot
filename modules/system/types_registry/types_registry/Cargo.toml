@@ -1,6 +1,6 @@
 [package]
 name = "cf-types-registry"
-version = "0.1.1"
+version = "0.1.2"
 edition.workspace = true
 license.workspace = true
 authors.workspace = true
@@ -48,5 +48,5 @@ modkit-macros = { workspace = true }
 
 [dev-dependencies]
 tower = { workspace = true, features = ["util"] }
-api_gateway = { package = "cf-api-gateway", version = "0.1.1", path = "../../api_gateway" }
+api_gateway = { package = "cf-api-gateway", version = "0.1.2", path = "../../api_gateway" }
 tokio = { workspace = true, features = ["rt-multi-thread", "macros"] }
